@@ -995,7 +995,7 @@ if edit_button and edit_id and edit_prompt:
 with output_container:
     if not st.session_state.refined_instruction and not st.session_state.all_test_cases_str:
         st.markdown("### Welcome! 👋")
-        st.markdown("Enter your test instruction in the sidebar and click **'Generate Initial Test Cases'** to begin.")
+        st.markdown("Test Enter your test instruction in the sidebar and click **'Generate Initial Test Cases'** to begin.")
         st.markdown("Your results will appear here.")
         
     if st.session_state.refined_instruction:
